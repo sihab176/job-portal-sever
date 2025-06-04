@@ -10,7 +10,7 @@ const app=express()
 
 //middle ware
 app.use(cors({
-  origin:['http://localhost:5173'],
+  origin:['http://localhost:5173','https://subtle-speculoos-5d599c.netlify.app'],
   credentials:true
 }))
 app.use(express.json())
